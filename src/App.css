@@ -1,0 +1,142 @@
+  @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+.App {
+  text-align: center;
+  font-family: 'Sixtyfour', sans-serif;
+}
+
+
+.start-screen button {
+  margin-top: 300px;
+  padding: 25px; 
+  border: 3px solid white;
+  font-size: 30px;
+}
+
+@keyframes wave-animation {
+  0%, 100% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(5px);
+  }
+}
+
+.wavy-title {
+  animation: wave-animation 2s ease-in-out infinite;
+}
+
+body {
+  background-color: black; 
+}
+
+.score {
+  background-color: black; 
+  border-radius: 5%; 
+  color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.title{
+  text-align: center;
+  height: 50px;
+  font-family: 'Sixtyfour', sans-serif;
+  padding: 3px solid black;
+}
+
+.App {
+  background-image: url('./image/jeopordy.png'); 
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh; 
+  color: white; 
+  border: 3px solid #dba1e8;
+}
+
+
+
+.question-card {
+  /* Center the div  */
+  margin: 0 auto;
+
+  /* Dimensions  */
+  width: 80%; 
+  height: auto;
+
+  /* Visual  */
+  background-color: #E39FF3;
+  border: 3px solid white;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-top: 8px;
+  background-color: #db6bf5;
+  padding: 16px;
+  border: 3px solid white;
+  border-radius: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 5px 0;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover{
+  background-color: #dd9cec; 
+}
+
+.question-text {
+  font-size: 24px;
+}
+
+/* Final Results  */
+
+.final-results {
+  margin: 0 auto;
+  border: 3px solid white;
+
+  /* Dimensions  */
+  width: 50%; 
+  height: auto;
+  margin-top: 64px;
+
+  /* Visual  */
+  background-color: #E39FF3;
+  padding: 16px;
+  border-radius: 16px;
+  color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+
+button {
+  background-color: #de4bff; 
+  border: none;
+  color: white;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  font-family: 'Sixtyfour', sans-serif;
+  border-radius: 24px;
+  border: 3px solid white;
+}
+
+button:hover{
+  background-color: #e57dfc;
+  cursor: pointer;
+}
